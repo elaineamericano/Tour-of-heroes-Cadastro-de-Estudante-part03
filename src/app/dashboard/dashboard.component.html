@@ -1,0 +1,10 @@
+<div class="menu">
+    <h2>Acesso rápido</h2>
+</div>
+<br>
+<div class="students-menu">
+  <a *ngFor="let student of students"
+    routerLink="/detail/{{student.id}}">
+    {{student.name}}
+  </a>
+</div>

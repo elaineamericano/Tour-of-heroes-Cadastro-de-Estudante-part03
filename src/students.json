@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "ra": 1235231,
+      "name": "Angela Campos Moraes",
+      "age": 12,
+      "studentClass": "4° ano",
+      "parentName": "Maria Clara Moraes"
+    },
+    {
+      "name": "Carlos Araujo",
+      "ra": "5554545",
+      "age": "13 anos",
+      "studentClass": "5° Ano",
+      "parentName": "Maria Aparecida Araujo",
+      "id": 2
+    },
+    {
+      "name": "Maria Aparecida Santana",
+      "ra": "233223",
+      "age": "15 anos",
+      "studentClass": "8° ano",
+      "parentName": "Maria Aparecida Santana",
+      "id": 3
+    },
+    {
+      "name": "Luiza Maria Silva",
+      "ra": "333434",
+      "age": "12 anos",
+      "studentClass": "4° ano",
+      "parentName": "Maria Silva",
+      "id": 4
+    },
+    {
+      "name": "Fernando Amaral Lima",
+      "ra": "43444",
+      "age": "12",
+      "studentClass": "7° ano",
+      "parentName": "Fábio Amaral",
+      "id": 5
+    }
+  ]
+}
