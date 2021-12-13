@@ -1,27 +1,21 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
+
 import { AppComponent } from './app.component';
-import { StudentsComponent } from './students/students.component';
-import { StudentDetailComponent } from './student-detail/student-detail.component';
-import { MessagesComponent } from './messages/messages.component';
-import { AppRoutingModule } from './app-routing.module';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { HttpClientModule } from '@angular/common/http';
+import { EstudantesComponent } from './estudantes/estudantes.component';
+import { EstudanteDetailComponent } from './estudante-detail/estudante-detail.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    StudentsComponent,
-    StudentDetailComponent,
-    MessagesComponent,
-    DashboardComponent,
+    EstudantesComponent,
+    EstudanteDetailComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    AppRoutingModule,
-    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
